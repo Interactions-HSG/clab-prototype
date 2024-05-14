@@ -1,21 +1,42 @@
 # clab-prototype
 
-Repository dedicated to prototypes for the Circular Lab. Currently it consits of two _mocks_:
-  
-- CEIS: a the Circular Economy Information System
-- A webshop: it interacts with the CEIS to get quote and register its orders
+The prototypes for the circular lab consists of a set of prototypes that eventually will act together as complete system. To explore the current state, visit:
 
-## How to run
+- [clab-ceis](https://github.com/Interactions-HSG/clab-ceis)
+- [clab-recipe-synth](https://github.com/Interactions-HSG/clab-recipe-synthesis)
 
-```bash
-docker compose build
-docker compose up
-```
+## How to explore
 
-Then connect to `http://localhost:8050` and `http://localhost:8051`
+Currently the prototypes are not connected, hence they will be presented separately
+
+### CEIS
+
+- [Shop](http://localhost:8050/)
+- [CEIS](http://localhost:8051/)
 
 ## Architecture
 
 The overall idea is presented by the following diagram:
 
 ![alt text](doc/assets/overview.drawio.svg)
+
+## Recap
+
+This repository presents our idea of a system that facilitates a circular economoy
+
+### CEIS
+
+A web shop that interacts with Circular Economy Information System (CEIS) and a monitor to CEIS
+
+- Underlying Product Life Cycle Model​
+- Draft of type and structure of events that could occur​
+- Web shops shows how information can be produced and consumed by other systems and users​
+
+In the Diagram​
+
+- Placement of other work packages around CEIS (Interactions of Autonomous Agents with each other and their environment​
+- A1a: Automated synthesis of manufacturing recipes for garments​
+- A1b: Design and map out a manufacturing facility (microfactory)​
+- A2a: Design and implementation of the CEIS and its instantiation for Refashion​
+- A2b: Design and implementation of a connector of the CEIS with a lifecycle GHG emissions tracking​
+- A2c: Design and development of a laboratory prototype for automated fabric block and garment assessment
