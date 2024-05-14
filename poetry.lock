@@ -156,6 +156,27 @@ files = [
 ]
 
 [[package]]
+name = "clab-ceis"
+version = "0.1.0"
+description = ""
+optional = false
+python-versions = "^3.12"
+files = []
+develop = false
+
+[package.dependencies]
+dash = "^2.15.0"
+dash-cytoscape = "^1.0.0"
+httpx = "^0.26.0"
+pandas = "^2.2.0"
+
+[package.source]
+type = "git"
+url = "ssh://git@github.com/Interactions-HSG/clab-ceis.git"
+reference = "feat/meta"
+resolved_reference = "0ae1985679e9437ec564883f909ac4747dba014d"
+
+[[package]]
 name = "click"
 version = "8.1.7"
 description = "Composable command line interface toolkit"
@@ -965,4 +986,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "676452207f86e3fc08333b11f2ef65ba51949209c26641baedd2fe561b4f6955"
+content-hash = "8e6ea76c402f3390cef6d777907094e60a1e8e5c229b18131455f60c101f6d36"
