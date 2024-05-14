@@ -11,6 +11,7 @@ dash = "^2.15.0"
 pandas = "^2.2.0"
 dash-cytoscape = "^1.0.0"
 httpx = "^0.26.0"
+clab-ceis = {git = "ssh://git@github.com/Interactions-HSG/clab-ceis.git", rev = "feat/meta"}
 
 [tool.poetry.group.dev.dependencies]
 commitizen = "^3.14.1"

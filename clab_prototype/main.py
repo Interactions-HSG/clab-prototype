@@ -10,8 +10,7 @@ from dash.dependencies import (
     Output,
 )
 
-import shop
-import ceis
+from clab_ceis import shop, ceis
 
 class CeisDemoHome():
     _shop = None
