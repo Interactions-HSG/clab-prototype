@@ -7,11 +7,13 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-dash = "^2.15.0"
+dash = {extras = ["diskcache"], version = "^2.17.0"}
 pandas = "^2.2.0"
 dash-cytoscape = "^1.0.0"
 httpx = "^0.26.0"
-clab-ceis = {git = "ssh://git@github.com/Interactions-HSG/clab-ceis.git", rev = "feat/meta"}
+# using https to install without ssh setup for container
+clab-ceis = {git = "https://github.com/Interactions-HSG/clab-ceis.git"}
+recipe-synth = {git = "https://github.com/Interactions-HSG/clab-recipe-synthesis.git", extras = ["dash"]}
 
 [tool.poetry.group.dev.dependencies]
 commitizen = "^3.14.1"
