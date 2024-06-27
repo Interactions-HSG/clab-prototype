@@ -18,7 +18,7 @@ Currently the prototypes are not connected, hence they will be presented separat
 
 The overall idea is presented by the following diagram:
 
-![alt text](https://raw.githubusercontent.com/Interactions-HSG/clab-ceis/feat/meta/doc/assets/overview.drawio.svg)
+![alt text](https://raw.githubusercontent.com/Interactions-HSG/clab-ceis/main/doc/assets/overview.drawio.svg)
 
 ## Recap
 
